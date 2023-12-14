@@ -1,0 +1,26 @@
+h1,p{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {background-color: rgb(71, 121, 104);
+
+}
+
+
+div{
+    background-color: rgb(42, 221, 221);
+    padding: 10px 20px 30px 40px;
+    border: 2px solid black;
+    margin: 20px 60px 10px 50px;
+}
+ h3{color: blue;}
+
+.links {
+    color: chartreuse;
+    text-decoration: none;
+    list-style-type: georgian;
+}
+
+#u-list {
+    list-style-type: georgian;
+}
