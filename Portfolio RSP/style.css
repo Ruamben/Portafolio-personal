@@ -1,26 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1,p{
-    color: brown;
+    color: rgb(223, 219, 219);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-body {background-color: rgb(71, 121, 104);
+body {background-color: rgb(185, 136, 30);
 
 }
 
 
 div{
-    background-color: rgb(42, 221, 221);
+    background-color: rgb(136, 71, 18);
     padding: 10px 20px 30px 40px;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     margin: 20px 60px 10px 50px;
 }
- h3{color: blue;}
+ h3{color: rgb(235, 235, 235);}
 
 .links {
-    color: chartreuse;
+    color: rgb(245, 248, 241);
     text-decoration: none;
     list-style-type: georgian;
 }
 
 #u-list {
     list-style-type: georgian;
+}
+section{display: flex;
+        width: 900px;
+        height: 450px;}
+section img{
+    width: 0px;
+    flex-grow: 1 ;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: .5s;
+}
+section img:hover{
+    cursor: crosshair;
+    width:300px;
+    opacity: 1;
+    filter: contrast(120%)
+
+
 }
